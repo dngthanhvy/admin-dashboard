@@ -27,6 +27,8 @@ export default function Topbar() {
                         <div className="topbar__iconsAvatar">
                             <Avatar />
                         </div>
+
+                        Username
                         
                     </div>
                 </div>
