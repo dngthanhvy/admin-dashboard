@@ -1,0 +1,32 @@
+.userList {
+    flex: 4;
+}
+
+.userList__user {
+    display: flex;
+    align-items: center;
+}
+
+.userList__userAvatar {
+    margin-right: 15px;
+}
+
+.userList__edit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #3bb077;
+    margin-right: 10px;
+}
+
+.userList__delete {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #d84848;
+    margin-right: 20px;
+}

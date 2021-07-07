@@ -1,0 +1,129 @@
+.user {
+    flex: 4;
+    padding: 20px;
+}
+
+.user__titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user__createBtn {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+.user__container{
+    display: flex;
+    margin-top: 20px;
+}
+
+.user__show {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+}
+
+.user__showTop {
+    display: flex;
+}
+
+.user__showAvatar {
+    margin-right: 15px;
+}
+
+.user__showTitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.user__showTitleName {
+    font-weight: 600;
+}
+
+.user__update {
+    flex: 2;
+    padding: 20px;
+    margin-left: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.user__showBottom {
+    margin-top: 20px
+}
+
+.user__showBottomTitle {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.user__showInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.user__showInfoTitle {
+    margin-left: 10px;
+}
+
+.user__updateTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.user__updateForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.userUpdateItem>label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.user__updateInput {
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid grey;
+}
+
+.user__updateFormRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user__updateFormUpload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user__updateButton {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+}

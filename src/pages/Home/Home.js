@@ -1,7 +1,7 @@
-import Featured from '../Featured/Featured';
-import Chart from '../Chart/Chart';
-import WidgetSm from '../Widget/WidgetSm/WidgetSm';
-import WidgetLg from '../Widget/WidgetLg/WidgetLg';
+import Featured from '../../components/Featured/Featured';
+import Chart from '../../components/Chart/Chart';
+import WidgetSm from '../../components/Widget/WidgetSm/WidgetSm';
+import WidgetLg from '../../components/Widget/WidgetLg/WidgetLg';
 
 import {userData} from '../../data';
 
