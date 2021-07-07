@@ -6,3 +6,7 @@
 .home__widgets {
     display: flex
 }
+
+.link {
+    text-decoration: none;
+}
