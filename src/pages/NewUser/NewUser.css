@@ -1,0 +1,45 @@
+.newUser {
+    flex: 4;
+}
+
+.newUser__title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.newUser__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newUser__formItem {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.newUser__formItem>label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.newUser__formItem>input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.newUser__formSubmit {
+    margin-top: 30px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(46, 182, 114);
+    color: white;
+    cursor: pointer;
+}
