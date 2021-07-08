@@ -62,6 +62,42 @@ export const productData = [
     name: "Mar",
     "Sales": 5000,
   },
+  {
+    name: "Apr",
+    "Sales": 1000,
+  },
+  {
+    name: "May",
+    "Sales": 2000,
+  },
+  {
+    name: "Jun",
+    "Sales": 4000,
+  },
+  {
+    name: "Jul",
+    "Sales": 5000,
+  },
+  {
+    name: "Aug",
+    "Sales": 5000,
+  },
+  {
+    name: "Sep",
+    "Sales": 3000,
+  },
+  {
+    name: "Oct",
+    "Sales": 2000,
+  },
+  {
+    name: "Nov",
+    "Sales": 1000,
+  },
+  {
+    name: "Dec",
+    "Sales": 3000,
+  },
 ];
 
 export const userRows = [
