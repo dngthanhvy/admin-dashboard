@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import UserList from './pages/UserList/UserList';
 import User from './pages/User/User';
 import NewUser from './pages/NewUser/NewUser';
+import ProductList from './pages/ProductList/ProductList';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/users" component={UserList}/>
           <Route path="/user/:userId" component={User}/>
           <Route path="/newUser" component={NewUser}/>
+          <Route path="/products" component={ProductList}/>
         </Switch>
       </div>
     </Router>
